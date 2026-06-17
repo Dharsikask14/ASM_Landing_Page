@@ -1,0 +1,37 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+@layer components {
+  .final-cta-section {
+    background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 35%, #0891b2 70%, #06b6d4 100%);
+  }
+
+  .final-cta-blob {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  }
+
+  .final-cta-blob--secondary {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.12) 0%, transparent 70%);
+  }
+
+  .final-cta-grid {
+    background-image: linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .final-cta-emoji {
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .final-cta-emoji--0 { left: 6%; top: 15%; }
+  .final-cta-emoji--1 { left: 18%; top: 40%; }
+  .final-cta-emoji--2 { left: 30%; top: 15%; }
+  .final-cta-emoji--3 { left: 42%; top: 40%; }
+  .final-cta-emoji--4 { left: 54%; top: 15%; }
+  .final-cta-emoji--5 { left: 66%; top: 40%; }
+  .final-cta-emoji--6 { left: 78%; top: 15%; }
+  .final-cta-emoji--7 { left: 90%; top: 40%; }
+}
