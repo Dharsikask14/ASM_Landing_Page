@@ -197,7 +197,7 @@ export function ChallengesSection() {
             >
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </motion.div>
-          </a>
+          </AuthButton>
         </motion.div>
       </div>
     </section>
